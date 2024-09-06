@@ -1,10 +1,55 @@
+body {
+  background-color: lightskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 600px;
+  border-radius: 35px;
+  margin: 60px auto;
+  box-shadow: -8px -8px 5px rgba(0, 0, 0, 0.1), 15px 15px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  background-color: antiquewhite;
+}
 h1 {
   text-align: center;
   font-size: bold;
   font-style: italic;
-  background: lightslategray;
 }
-p {
+select {
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 25px 0;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border-bottom: none;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.date {
+  opacity: 0.6;
+}
+.time {
+  font-size: 45px;
+  font-weight: bold;
+}
+.time small {
+  vertical-align: super;
+}
+footer {
   text-align: center;
-  font-size: medium;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
 }
