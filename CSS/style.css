@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  font-size: bold;
+  font-style: italic;
+  background: lightslategray;
+}
+p {
+  text-align: center;
+  font-size: medium;
+}
